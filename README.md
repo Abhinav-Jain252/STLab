@@ -51,3 +51,28 @@ Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)<br/>
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.<br/>
 To https://github.com/Abhinav-Jain252/STLab.git<br/>
    27887ce..ba6b281  main -> main<br/>
+
+
+
+# 5. Git Branch creation, navigating and pushing
+PS C:\Users\abhin\OneDrive\Desktop\Abhinav Jain\IIT JAMMU\First Sem\Software Tools\Git\STLab> git branch<br/>
+* main<br/>
+PS C:\Users\abhin\OneDrive\Desktop\Abhinav Jain\IIT JAMMU\First Sem\Software Tools\Git\STLab> git checkout ../<br/>
+fatal: ../: '../' is outside repository at 'C:/Users/abhin/OneDrive/Desktop/Abhinav Jain/IIT JAMMU/First Sem/Software Tools/Git/STLab'<br/>
+PS C:\Users\abhin\OneDrive\Desktop\Abhinav Jain\IIT JAMMU\First Sem\Software Tools\Git\STLab> git checkout -b feature/contact-form
+Switched to a new branch 'feature/contact-form'<br/>
+PS C:\Users\abhin\OneDrive\Desktop\Abhinav Jain\IIT JAMMU\First Sem\Software Tools\Git\STLab> git branch<br/>
+* feature/contact-form<br/>
+  main<br/>
+PS C:\Users\abhin\OneDrive\Desktop\Abhinav Jain\IIT JAMMU\First Sem\Software Tools\Git\STLab> git checkout main<br/>
+M       README.md<br/>
+Switched to branch 'main'<br/>
+Your branch is up to date with 'origin/main'.<br/>
+PS C:\Users\abhin\OneDrive\Desktop\Abhinav Jain\IIT JAMMU\First Sem\Software Tools\Git\STLab> git push origin feature/contact-form<br/>
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)<br/>
+remote: <br/>
+remote: Create a pull request for 'feature/contact-form' on GitHub by visiting:<br/>
+remote:      https://github.com/Abhinav-Jain252/STLab/pull/new/feature/contact-form<br/>
+remote:<br/>
+To https://github.com/Abhinav-Jain252/STLab.git<br/>
+ * [new branch]      feature/contact-form -> feature/contact-form<br/>
